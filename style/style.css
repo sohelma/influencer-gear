@@ -50,3 +50,28 @@
 .star li{list-style: none;}
 .popular-card{display: grid;grid-template-columns: repeat(3, 1fr);gap: 10px}
 .popular h2{text-align: center;margin: 50px 0}
+.arrow{float: right;margin-right: 170px;color: #E02C6D;font-weight: 600;}
+.arrow:hover{color: #fd025e;text-decoration: underline;}
+.feature{display: flex;justify-content: space-between;margin: 40px auto;gap: 30px;
+align-items: center;width: 90%;}
+.feature-right{width: 55%;}
+.feature-right p{margin:14px;}
+footer{background-color: rgb(1, 1, 53);color: white;padding: 40px 0;text-align: center;}
+.footer-logo li img{width: 20px;height: 20px;background-color: white;
+border-radius: 10px;border: 3px solid grey;}
+.footer-logo li {list-style: none;margin-top: 15px;}
+.footer-logo{display: flex;justify-content: space-around;width: 17%;margin: 0 auto;}
+footer p{font-size: 13px;line-height: 28px;}
+
+       /* SMALL MEDIA -QUERY */
+        @media screen and (max-width:576px) {
+.navbar-list,.head-content,.camera,.logo,.feature{flex-direction: column; 
+   background-color: lightblue;   }
+.logo{align-items: center;}
+}
+.popular-card{grid-template-columns: repeat(1, 1fr);}
+            /* MEDIUAM MEDIA -QUERY */
+        @media screen and (min-width:576px)and (max-width:992px) {
+
+          .popular-card{grid-template-columns: repeat(2, 1fr);background-color: rgb(194, 193, 193); }
+      }
