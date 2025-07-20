@@ -68,10 +68,11 @@ footer p{font-size: 13px;line-height: 28px;}
 .navbar-list,.head-content,.camera,.logo,.feature{flex-direction: column; 
    background-color: lightblue;   }
 .logo{align-items: center;}
-}
 .popular-card{grid-template-columns: repeat(1, 1fr);}
+}
+
             /* MEDIUAM MEDIA -QUERY */
         @media screen and (min-width:576px)and (max-width:992px) {
-
-          .popular-card{grid-template-columns: repeat(2, 1fr);background-color: rgb(194, 193, 193); }
+.popular-card{grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(194, 193, 193); }
       }
