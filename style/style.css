@@ -43,7 +43,8 @@
     width: 85%;
     border-radius: 7px;
     padding: 10px;}
-
+    .card:hover{background-color: lightblue;}
+.card p{color: gray;font-size: 0.85rem;}
 .star,.stars{display: flex;justify-content: space-between;}
 .star img{width: 20px;height:20px;}
 .star li{list-style: none;}
