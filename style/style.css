@@ -26,16 +26,19 @@
 .navbar-list li a:hover{color: #E02C6D;font-weight: 600;}
 
 /* camera */
-.camera{display: flex;justify-content: space-between;align-items: center;gap: 10px;max-width: 90%;margin: 30px auto;}
+.camera{display: flex;justify-content: space-between;align-items: center;
+  gap: 10px;max-width: 90%;margin: 30px auto;}y
 .cam-left{width: 45%;}
 .cam-right{width: 45%;background-image:url(../images/Circle\ design.svg);background-repeat: no-repeat;padding: 50px 0;}
 .cam-left h2{font-size: 50px;font-weight: bold;}
 .cam-left h5{margin-bottom: 15px;}
-.btn{background-color: #E02C6D;font-weight: 400;color: white;border:none;padding: 10px 20px;border-radius: 4px;font-size: 14px;font-weight: 500;}
+.btn{background-color: #E02C6D;font-weight: 300;color: white;border:none;padding: 10px 20px;border-radius:8px;font-size: 14px;font-weight: 500;}
 .btn:hover{background-color: #fd025e;color:paleturquoise;}
 /* company */
 .company{max-width: 85%;margin: 50px auto;}
-.logo{display: flex;justify-content: space-around;border: 3px solid rgb(247, 244, 244);padding:20px}
+.logo{display: flex;justify-content: space-around;
+  box-shadow: 0 0 9px grey;padding:20px;align-items: center;}
+
 .logo li{list-style: none;}
 /* popular */
 .popular{max-width: 85%;margin: 80px auto;}
@@ -46,6 +49,7 @@
     .card:hover{background-color: lightblue;}
 .card p{color: gray;font-size: 0.85rem;}
 .star,.stars{display: flex;justify-content: space-between;}
+.fa-star,.fa-star-half-stroke{color: rgb(233, 192, 10);}
 .star img{width: 20px;height:20px;}
 .star li{list-style: none;}
 .popular-card{display: grid;grid-template-columns: repeat(3, 1fr);gap: 10px}
